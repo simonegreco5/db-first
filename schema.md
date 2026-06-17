@@ -5,7 +5,7 @@ Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardant
 ## Table name: cars
 
 
-- id: BIGINT - NOT NULL - UNIQUE
+- id: BIGINT - NOT NULL - UNIQUE - PRIMARY KEY - AUTO_INCREMENT
 - marca: VARCHAR (30) - NOT NULL
 - modello: VARCHAR (30) - NOT NULL
 - targa: * VARCHAR (14) - NULL
